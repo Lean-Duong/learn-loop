@@ -72,7 +72,7 @@ Grouped by what you would use them for, not alphabetically.
 | :-: | --- | :-: | --- |
 | 41 | Krashen, *Principles and Practice in Second Language Acquisition*, Pergamon — [free PDF](http://www.sdkrashen.com/content/books/principles_and_practice.pdf) | 1982 | The input hypothesis (i+1). Necessary, not sufficient |
 | 42 | Swain, *Communicative Competence: Some Roles of Comprehensible Input and Output* | 1985 | The output hypothesis: producing language forces you to notice gaps |
-| 43 | Nation, *How Large a Vocabulary Is Needed for Reading and Listening?*, CMLR 63(1) — [10.3138/cmlr.63.1.59](https://doi.org/10.3138/cmlr.63.1.59) | 2006 | 2,000 word families ≈ 90% coverage; 8,000–9,000 for 98% (unassisted reading) |
+| 43 | Nation, *How Large a Vocabulary Is Needed for Reading and Listening?*, CMLR 63(1) — [10.3138/cmlr.63.1.59](https://doi.org/10.3138/cmlr.63.1.59) | 2006 | 2,000 word families ≈ 80% of written text; 4,000–5,000 ≈ 95%; 8,000–9,000 for the 98% needed to read unassisted |
 | 44 | Nation, *The Four Strands*, Innovation in Language Learning and Teaching 1(1) | 2007 | Balance input, output, language-focused study, fluency |
 | 45 | Hu & Nation, *Unknown Vocabulary Density and Reading Comprehension*, Reading in a Foreign Language 13(1) | 2000 | The 98% coverage threshold |
 | 46 | Laufer & Ravenhorst-Kalovski, *Lexical Threshold Revisited*, Reading in a Foreign Language 22(1) | 2010 | Confirms ~8,000 word families for comfortable reading |
