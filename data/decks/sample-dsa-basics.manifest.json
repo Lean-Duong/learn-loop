@@ -1,0 +1,113 @@
+{
+  "deck": "sample-dsa-basics",
+  "created": "2026-11-14",
+  "generator": "human",
+  "source_docs": [
+    "docs/04-anki-card-design.md",
+    "docs/07-cs-roadmap.md",
+    "docs/08-english-for-developers.md"
+  ],
+  "review": {
+    "status": "spot-checked",
+    "by": "human",
+    "sample_size": 12
+  },
+  "cards": [
+    {
+      "row": 1,
+      "front_hash": "8f14e45f",
+      "source_span": "docs/04-anki-card-design.md#patterns-by-content-type",
+      "confidence": "strong",
+      "status": "accepted",
+      "notes": "Example of the complexity pattern: named algorithm + case."
+    },
+    {
+      "row": 2,
+      "front_hash": "c9f0f895",
+      "source_span": "docs/04-anki-card-design.md#patterns-by-content-type",
+      "confidence": "strong",
+      "status": "accepted",
+      "notes": "Two clozes in one card is acceptable here: both are part of one contrast."
+    },
+    {
+      "row": 3,
+      "front_hash": "45c48cce",
+      "source_span": "docs/07-cs-roadmap.md#the-enduring-core",
+      "confidence": "strong",
+      "status": "accepted",
+      "notes": ""
+    },
+    {
+      "row": 4,
+      "front_hash": "d3d94468",
+      "source_span": "docs/07-cs-roadmap.md#the-enduring-core",
+      "confidence": "strong",
+      "status": "accepted",
+      "notes": "One mechanism, one sentence."
+    },
+    {
+      "row": 5,
+      "front_hash": "6512bd43",
+      "source_span": "docs/04-anki-card-design.md#patterns-by-content-type",
+      "confidence": "strong",
+      "status": "accepted",
+      "notes": "Comparison card with a single discriminating axis."
+    },
+    {
+      "row": 6,
+      "front_hash": "c20ad4d7",
+      "source_span": "docs/07-cs-roadmap.md#the-enduring-core",
+      "confidence": "strong",
+      "status": "accepted",
+      "notes": ""
+    },
+    {
+      "row": 7,
+      "front_hash": "c51ce410",
+      "source_span": "docs/04-anki-card-design.md#patterns-by-content-type",
+      "confidence": "strong",
+      "status": "accepted",
+      "notes": ""
+    },
+    {
+      "row": 8,
+      "front_hash": "aab32389",
+      "source_span": "docs/04-anki-card-design.md#what-should-not-be-a-card",
+      "confidence": "strong",
+      "status": "accepted",
+      "notes": ""
+    },
+    {
+      "row": 9,
+      "front_hash": "1679091c",
+      "source_span": "docs/07-cs-roadmap.md#where-anki-fits",
+      "confidence": "strong",
+      "status": "accepted",
+      "notes": ""
+    },
+    {
+      "row": 10,
+      "front_hash": "8f14e45f",
+      "source_span": "docs/07-cs-roadmap.md#the-enduring-core",
+      "confidence": "moderate",
+      "status": "accepted",
+      "notes": "Math card; keep display form short."
+    },
+    {
+      "row": 11,
+      "front_hash": "e4da3b7f",
+      "source_span": "docs/08-english-for-developers.md#card-shapes-that-work",
+      "confidence": "moderate",
+      "status": "accepted",
+      "notes": "Collocation cloze, not a definition card."
+    },
+    {
+      "row": 12,
+      "front_hash": "aab32389",
+      "source_span": "docs/08-english-for-developers.md#card-shapes-that-work",
+      "confidence": "moderate",
+      "status": "accepted",
+      "notes": "Same word as row 7 but different register (English vs protocol semantics). Intentional multi-angle, not a duplicate."
+    }
+  ]
+}

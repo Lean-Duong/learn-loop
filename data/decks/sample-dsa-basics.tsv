@@ -1,0 +1,12 @@
+Basic	Binary search on a sorted array of n elements: worst-case time complexity?	<strong>O(log n)</strong>	domain::dsa tier::core lifecycle::evergreen card::fact
+Cloze	In Python, membership test <code>x in s</code> is O({{c1::1}}) average for a <code>set</code> and O({{c1::n}}) for a <code>list</code>.		domain::lang-python tier::standard lifecycle::evergreen card::cloze
+Basic	TCP three-way handshake: which flag is set in the first packet sent by the client?	<strong>SYN</strong>	domain::network tier::core lifecycle::evergreen card::fact
+Basic	In a B-tree index, why is a range scan cheap once the first key is found?	Leaf nodes hold sorted keys and are linked, so the scan is one descent plus a sequential walk.	domain::database tier::core lifecycle::evergreen card::fact
+Basic	<code>git rebase</code> vs <code>git merge</code>: which one rewrites commit hashes?	<strong>rebase</strong> — it replays commits onto a new base	domain::tooling tier::standard lifecycle::evergreen card::compare
+Basic	SQL: which ignores NULLs, <code>COUNT(*)</code> or <code>COUNT(column)</code>?	<code>COUNT(column)</code> — it counts only non-NULL values	domain::database tier::core lifecycle::evergreen card::compare
+Cloze	An HTTP method is {{c1::idempotent}} if repeating the same request leaves the server in the same state.		domain::network tier::core lifecycle::evergreen card::cloze
+Cloze	A hash table's O(1) average lookup degrades to {{c1::O(n)}} worst case when many keys collide.		domain::dsa tier::core lifecycle::evergreen card::cloze
+Basic	Python <code>list.append</code>: amortized time complexity?	<strong>O(1)</strong> amortized	domain::lang-python tier::standard lifecycle::evergreen card::fact
+Basic	Master theorem: what does <code>T(n) = 2T(n/2) + Θ(n)</code> solve to?	<strong>Θ(n log n)</strong>	domain::math tier::core lifecycle::evergreen card::fact
+Cloze	We need to {{c1::mitigate}} the risk, not eliminate it.		domain::english tier::standard lifecycle::evergreen card::cloze
+Cloze	The request is {{c1::idempotent}}, so retrying it after a timeout is safe.		domain::english tier::standard lifecycle::evergreen card::cloze

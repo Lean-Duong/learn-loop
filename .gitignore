@@ -1,0 +1,15 @@
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.obsidian/
+.vscode/
+.idea/
+
+# Scratch
+*.tmp
+*.bak
+node_modules/
+__pycache__/
