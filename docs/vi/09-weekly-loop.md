@@ -110,4 +110,4 @@ Mỗi thành phần ánh xạ tới bằng chứng trong `01`:
 
 Không có gì ở đây mới lạ. Đó chính là điểm. Một hệ thống bạn theo hai năm đánh bại một hệ thống tối ưu bạn theo ba tuần.
 
-→ Tiếp: [10 — Nguồn tham khảo](10-sources.md)
+→ Tiếp: [10 — Nguồn tham khảo](../10-sources.md)
