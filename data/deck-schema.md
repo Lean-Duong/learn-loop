@@ -60,7 +60,41 @@ Fields:
 | `status` | `accepted`, `rejected`, `needs-human` |
 | `generator` | Which model produced it, so quality regressions are traceable |
 
-## 3. Tags
+### `front_hash` is defined, not ad hoc
+
+Two runs over the same source must produce the same hash, or deduplication does
+not work. The definition:
+
+```
+front_hash = sha256(normalize(front))[:8]      # 8 lowercase hex chars
+
+normalize = unescape &lt; &gt; &amp;
+          → strip HTML tags
+          → NFKC
+          → casefold
+          → collapse whitespace, trim
+          → strip trailing . ? ! : ;
+```
+
+So `"What is a <b>semaphore</b>?"` and `"what is a semaphore"` collide, which is
+what you want. Anything that changes the *meaning* of the front changes the hash.
+
+## 3. Validate before you commit
+
+```bash
+python data/validate_deck.py                # every deck
+python data/validate_deck.py --fix-hashes   # after editing fronts
+```
+
+It checks: 4 columns, BOM, NoteType, the four tag axes, unescaped `<`, `[$]`
+misuse, cloze markers, duplicate fronts, manifest/TSV row parity, hash accuracy,
+enum values, and that every accepted card has a `source_span`. Exit code 1 means
+do not commit.
+
+It cannot check whether a card is *worth* having. That is `docs/04` and
+`templates/card-quality-checklist.md`.
+
+## 4. Tags
 
 Four axes, all lowercase, all `::`-separated. This is the minimum that stays
 useful after a year.
@@ -80,7 +114,7 @@ domain::<subject>  tier::<importance>  lifecycle::<stability>  card::<type>
 `lifecycle::ephemeral` is the most underused tag. A card about a framework
 version pin is not knowledge, it is a note. Tag it honestly and delete it later.
 
-## 4. Why not put everything in one giant deck
+## 5. Why not put everything in one giant deck
 
 Subdecks cost nothing and let you suspend a whole rotting branch
 (`tooling::nextjs`) without touching evergreen cards. One deck per domain,

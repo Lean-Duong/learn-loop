@@ -43,6 +43,8 @@ If a claim has no tag, treat it as `[practice]`.
    say the docs are silent. Do not fill the gap with plausible-sounding text.
    A hallucinated card is worse than a missing card, because spaced repetition
    will burn it into memory.
+6. Run `python data/validate_deck.py` before handing a deck back. Exit code 1
+   means the deck is not deliverable — fix the deck, do not waive the check.
 
 ## 4. Hard rules when generating cards
 
@@ -54,7 +56,8 @@ These are non-negotiable. `docs/04-anki-card-design.md` explains why.
 - The answer must be producible in under ~10 seconds.
 - Reject anything that needs multi-step reasoning. That is practice, not recall.
 - Reject anything where the answer is visible in the question.
-- Deduplicate against existing decks and against `data/sample-deck.tsv`.
+- Deduplicate against every deck in `data/decks/`, using the `front_hash`
+  definition in `data/deck-schema.md`.
 - Mark each card's confidence and review status in the manifest.
 
 ## 5. What not to do

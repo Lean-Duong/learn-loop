@@ -15,7 +15,7 @@
   "cards": [
     {
       "row": 1,
-      "front_hash": "8f14e45f",
+      "front_hash": "eea6c0bd",
       "source_span": "docs/04-anki-card-design.md#patterns-by-content-type",
       "confidence": "strong",
       "status": "accepted",
@@ -23,7 +23,7 @@
     },
     {
       "row": 2,
-      "front_hash": "c9f0f895",
+      "front_hash": "0f67545c",
       "source_span": "docs/04-anki-card-design.md#patterns-by-content-type",
       "confidence": "strong",
       "status": "accepted",
@@ -31,7 +31,7 @@
     },
     {
       "row": 3,
-      "front_hash": "45c48cce",
+      "front_hash": "45434ac6",
       "source_span": "docs/07-cs-roadmap.md#the-enduring-core",
       "confidence": "strong",
       "status": "accepted",
@@ -39,7 +39,7 @@
     },
     {
       "row": 4,
-      "front_hash": "d3d94468",
+      "front_hash": "3650e7a7",
       "source_span": "docs/07-cs-roadmap.md#the-enduring-core",
       "confidence": "strong",
       "status": "accepted",
@@ -47,7 +47,7 @@
     },
     {
       "row": 5,
-      "front_hash": "6512bd43",
+      "front_hash": "4d31b386",
       "source_span": "docs/04-anki-card-design.md#patterns-by-content-type",
       "confidence": "strong",
       "status": "accepted",
@@ -55,7 +55,7 @@
     },
     {
       "row": 6,
-      "front_hash": "c20ad4d7",
+      "front_hash": "17d70286",
       "source_span": "docs/07-cs-roadmap.md#the-enduring-core",
       "confidence": "strong",
       "status": "accepted",
@@ -63,7 +63,7 @@
     },
     {
       "row": 7,
-      "front_hash": "c51ce410",
+      "front_hash": "d76b1828",
       "source_span": "docs/04-anki-card-design.md#patterns-by-content-type",
       "confidence": "strong",
       "status": "accepted",
@@ -71,7 +71,7 @@
     },
     {
       "row": 8,
-      "front_hash": "aab32389",
+      "front_hash": "6abf30c6",
       "source_span": "docs/04-anki-card-design.md#what-should-not-be-a-card",
       "confidence": "strong",
       "status": "accepted",
@@ -79,7 +79,7 @@
     },
     {
       "row": 9,
-      "front_hash": "1679091c",
+      "front_hash": "43c2c36d",
       "source_span": "docs/07-cs-roadmap.md#where-anki-fits",
       "confidence": "strong",
       "status": "accepted",
@@ -87,7 +87,7 @@
     },
     {
       "row": 10,
-      "front_hash": "8f14e45f",
+      "front_hash": "72c988c3",
       "source_span": "docs/07-cs-roadmap.md#the-enduring-core",
       "confidence": "moderate",
       "status": "accepted",
@@ -95,7 +95,7 @@
     },
     {
       "row": 11,
-      "front_hash": "e4da3b7f",
+      "front_hash": "17c07677",
       "source_span": "docs/08-english-for-developers.md#card-shapes-that-work",
       "confidence": "moderate",
       "status": "accepted",
@@ -103,7 +103,7 @@
     },
     {
       "row": 12,
-      "front_hash": "aab32389",
+      "front_hash": "24095d23",
       "source_span": "docs/08-english-for-developers.md#card-shapes-that-work",
       "confidence": "moderate",
       "status": "accepted",

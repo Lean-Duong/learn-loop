@@ -1,7 +1,7 @@
 Basic	Binary search on a sorted array of n elements: worst-case time complexity?	<strong>O(log n)</strong>	domain::dsa tier::core lifecycle::evergreen card::fact
 Cloze	In Python, membership test <code>x in s</code> is O({{c1::1}}) average for a <code>set</code> and O({{c1::n}}) for a <code>list</code>.		domain::lang-python tier::standard lifecycle::evergreen card::cloze
 Basic	TCP three-way handshake: which flag is set in the first packet sent by the client?	<strong>SYN</strong>	domain::network tier::core lifecycle::evergreen card::fact
-Basic	In a B-tree index, why is a range scan cheap once the first key is found?	Leaf nodes hold sorted keys and are linked, so the scan is one descent plus a sequential walk.	domain::database tier::core lifecycle::evergreen card::fact
+Basic	In a B-tree index, why is a range scan cheap once the first key is found?	Leaf nodes are sorted and linked: one descent plus a sequential walk.	domain::database tier::core lifecycle::evergreen card::fact
 Basic	<code>git rebase</code> vs <code>git merge</code>: which one rewrites commit hashes?	<strong>rebase</strong> — it replays commits onto a new base	domain::tooling tier::standard lifecycle::evergreen card::compare
 Basic	SQL: which ignores NULLs, <code>COUNT(*)</code> or <code>COUNT(column)</code>?	<code>COUNT(column)</code> — it counts only non-NULL values	domain::database tier::core lifecycle::evergreen card::compare
 Cloze	An HTTP method is {{c1::idempotent}} if repeating the same request leaves the server in the same state.		domain::network tier::core lifecycle::evergreen card::cloze

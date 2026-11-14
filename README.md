@@ -62,7 +62,10 @@ Supporting material:
   is also card-generation input.
 - [`templates/card-quality-checklist.md`](templates/card-quality-checklist.md) —
   15 pass/fail checks for a card.
-- [`data/deck-schema.md`](data/deck-schema.md) — TSV + manifest format.
+- [`data/deck-schema.md`](data/deck-schema.md) — TSV + manifest format, and the
+  exact `front_hash` definition.
+- [`data/validate_deck.py`](data/validate_deck.py) — structural validator. Run it
+  before committing a deck; it catches the failures that break imports.
 - [`AGENTS.md`](AGENTS.md) — the contract for AI agents reading this repo.
 
 ---
